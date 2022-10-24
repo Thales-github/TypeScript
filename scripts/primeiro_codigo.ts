@@ -11,9 +11,9 @@ class Produto {
     nome: string;
     valor: number;
 
-    constructor(produtoNome, produtoValor) {
+    constructor(produtoNome: string, produtoValor: number) {
         this.nome = produtoNome;
         this.valor = produtoValor;
     }
 }
-const playStation5 = new Produto("PlayStation", "5000");
+const playStation5 = new Produto("PlayStation", 5000);

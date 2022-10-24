@@ -1,3 +1,4 @@
+"use strict";
 console.log("typescript rodando...");
 console.log("====================");
 const nome = "Thales";
@@ -8,4 +9,5 @@ class Produto {
         this.valor = produtoValor;
     }
 }
-const playStation5 = new Produto("PlayStation", "5000");
+const playStation5 = new Produto("PlayStation", 5000);
+//# sourceMappingURL=primeiro_codigo.js.map
