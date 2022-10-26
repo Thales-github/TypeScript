@@ -1,0 +1,2 @@
+tsc -> compila o seu comando typescript para código javascript
+tsc --watch -> o typescript observa sua pasta e de forma automática compila seu código enquanto você edita ele
