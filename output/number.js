@@ -1,7 +1,7 @@
 "use strict";
-let ano;
+let ano = 12;
 let ano2;
-ano = 2021;
+// ano = 2021;
 // ano2 = "2010";
 ano2 = 2010;
 console.log(ano + ano2);
