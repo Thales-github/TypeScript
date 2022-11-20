@@ -1,13 +1,14 @@
+// criando a interface
+interface IEndereco {
 
-
-// criando a interface(aqui eub especifico como o nosso objeto deve ser criado)
-let endereco: {
-
-    logradouro: string,
-    numero: number,
-    bairro: string,
-    cidade: string
+    logradouro: string;
+    numero: number;
+    bairro: string;
+    cidade: string;
 }
+
+// dizendo que o objeto endereco é do tipo da interface criada IEndereco
+let endereco: IEndereco;
 
 endereco = {
     logradouro: "Av. Paulista",
